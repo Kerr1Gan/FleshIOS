@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B577A3722BDF2F000FCA411 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B577A3622BDF2F000FCA411 /* UIColorExtension.swift */; };
 		4BC7F82B22AEA1400033F1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7F82A22AEA1400033F1B7 /* AppDelegate.swift */; };
 		4BC7F82D22AEA1400033F1B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7F82C22AEA1400033F1B7 /* ViewController.swift */; };
 		4BC7F83022AEA1400033F1B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC7F82E22AEA1400033F1B7 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B577A3622BDF2F000FCA411 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		4BC7F82722AEA1400033F1B7 /* flesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC7F82A22AEA1400033F1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BC7F82C22AEA1400033F1B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				4BC7F83322AEA1420033F1B7 /* LaunchScreen.storyboard */,
 				4BC7F83622AEA1420033F1B7 /* Info.plist */,
 				4BDBC0D722AEA8CE0018E1BD /* Images.xcassets */,
+				4B577A3622BDF2F000FCA411 /* UIColorExtension.swift */,
 			);
 			path = flesh;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				4BC7F82D22AEA1400033F1B7 /* ViewController.swift in Sources */,
 				4BC7F82B22AEA1400033F1B7 /* AppDelegate.swift in Sources */,
+				4B577A3722BDF2F000FCA411 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +436,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = flesh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,7 +453,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = flesh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
